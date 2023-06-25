@@ -1,0 +1,62 @@
+body{
+    background-color: yellow;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.row1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: sample 3s infinite alternate;
+    margin: 30px;
+}
+@keyframes sample{
+    0%{
+        transform: skew(-30deg);
+    }
+    100%{
+        transform: skew(30deg);
+    }
+}
+.row2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: sample1 3s infinite alternate;
+    margin: 30px;
+}
+@keyframes sample1
+{
+   0%{
+    transform: skewY(30deg);
+   }
+   100%{
+    transform: skewY(-30deg);
+   }
+}
+    
+.row3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: sample2 3s infinite alternate;
+    margin: 30px;
+}
+@keyframes sample2
+{
+  0%{
+    transform: rotate(360deg)
+  }
+  100%{
+    transform: rotate(-360deg);
+  }
+}
+.row4{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: sample3 3s infinite alternate;
+    margin: 30px;
+}
